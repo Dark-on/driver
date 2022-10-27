@@ -34,89 +34,70 @@ int main(void)
     set_GPIOx_pin_mode(GPIO_OUTPUT_MODE, 15, GPIOD); //синій
     while(1)
     {
-    	write_into_GPIOx_pin(1, 12, GPIOD);
-    	sleep_s(1);
-    	write_into_GPIOx_pin(1, 13, GPIOD);
-    	sleep_s(1);
-    	write_into_GPIOx_pin(1, 14, GPIOD);
-    	sleep_s(1);
-    	write_into_GPIOx_pin(1, 15, GPIOD);
-    	sleep_s(1);
-    	write_into_GPIOx_pin(0, 15, GPIOD);
-    	sleep_s(1);
-    	write_into_GPIOx_pin(0, 14, GPIOD);
-    	sleep_s(1);
-    	write_into_GPIOx_pin(0, 13, GPIOD);
-    	sleep_s(1);
-    	write_into_GPIOx_pin(0, 12, GPIOD);
-    	sleep_s(1);
 
+    	//c -.-.
+    	dash(12);
+    	sleep_dot(1);
+    	dot(12);
+    	sleep_dot(1);
+    	dash(12);
+    	sleep_dot(1);
+    	dot(12);
 
+    	sleep_dot(3);
+    	//o ---
+    	dash(13);
+		sleep_dot(1);
+		dash(13);
+		sleep_dot(1);
+		dash(13);
 
+		sleep_dot(3);
+    	//t -
+		dash(14);
 
-//    	//c
-//    	dash(12);
-//    	sleep_dot(1);
-//    	dot(12);
-//    	sleep_dot(1);
-//    	dash(12);
-//    	sleep_dot(1);
-//    	dot(12);
-//
-//    	sleep_dot(3);
-//    	//o
-//    	dash(13);
-//		sleep_dot(1);
-//		dash(13);
-//		sleep_dot(1);
-//		dash(13);
-//
-//		sleep_dot(3);
-//    	//t
-//		dash(14);
-//
-//		sleep_dot(3);
-//    	//t
-//		dash(15);
-//
-//		sleep_dot(3);
-//    	//o
-//		dash(12);
-//		sleep_dot(1);
-//		dash(12);
-//		sleep_dot(1);
-//		dash(12);
-//
-//		sleep_dot(3);
-//    	//n
-//		dash(13);
-//		sleep_dot(1);
-//		dot(13);
-//
-//		sleep_dot(7);
-//		//7
-//		dash(14);
-//		sleep_dot(1);
-//		dash(14);
-//		sleep_dot(1);
-//		dot(14);
-//		sleep_dot(1);
-//		dot(14);
-//		sleep_dot(1);
-//		dot(14);
-//		sleep_dot(1);
-//
-//		sleep_dot(3);
-//		//3
-//		dot(15);
-//		sleep_dot(1);
-//		dot(15);
-//		sleep_dot(1);
-//		dot(15);
-//		sleep_dot(1);
-//		dash(15);
-//		sleep_dot(1);
-//		dash(15);
+		sleep_dot(3);
+    	//t -
+		dash(15);
+
+		sleep_dot(3);
+    	//o ---
+		dash(12);
+		sleep_dot(1);
+		dash(12);
+		sleep_dot(1);
+		dash(12);
+
+		sleep_dot(3);
+    	//n -.
+		dash(13);
+		sleep_dot(1);
+		dot(13);
+
+		sleep_dot(7);
+		//7 --...
+		dash(14);
+		sleep_dot(1);
+		dash(14);
+		sleep_dot(1);
+		dot(14);
+		sleep_dot(1);
+		dot(14);
+		sleep_dot(1);
+		dot(14);
+		sleep_dot(1);
+
+		sleep_dot(3);
+		//3 ...--
+		dot(15);
+		sleep_dot(1);
+		dot(15);
+		sleep_dot(1);
+		dot(15);
+		sleep_dot(1);
+		dash(15);
+		sleep_dot(1);
+		dash(15);
 
 
     }
